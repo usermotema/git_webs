@@ -248,9 +248,9 @@ img{
 #carousel_container{
     min-height: 410px;
     width: 100%;
-    background: #01361f;
+    background: #075a38;
     position: relative;
-    margin-top: 60px;
+    margin-top: 50px;
     padding: 15px 0;
     
 }
@@ -421,18 +421,46 @@ img{
     #carousel_div{
         width: 100%;
         
+        
        
     }
 
+    #carousel_container{
+        height: 600px;
+    }
+
+    #carousel_div{
+        height: 250px;
+    }
+
+    #left_arrow{
+        top: 45%;
+        width: 20px;
+        font-size: 15px;
+    }
+
+    #right_arrow{
+        top: 45%;
+        width: 20px;
+        font-size: 15px;
+    }
+
     #stories{
+        height: 350px;
         width: 100%;
+    }
+
+    
+    .story_clip{
+        font-size: 10px;
     }
 
     .three_divs{
         width: 100%;
+        margin-left: 0px;
     }
 
-    .home_contain{
+    #home_contain{
         height: 800px;
     }
 
